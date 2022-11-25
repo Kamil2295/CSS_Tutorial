@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(74, 71, 34);
+}
+.parent{
+    width: 50vh;
+    height: 50vh;
+    border: 1px solid black;
+    position: relative;
+}
+
+
+.child{
+    border: 1px dotted black;
+    width: 25vh;
+    height: 25vh;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.second{
+    border: 1px dotted black;
+    width: 25vh;
+    height: 25vh;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.tt{
+    height: 200vh;
+}
