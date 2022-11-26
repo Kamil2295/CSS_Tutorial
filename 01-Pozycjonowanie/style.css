@@ -1,32 +1,48 @@
 body {
     background-color: rgb(74, 71, 34);
+    margin: 0;
 }
 .parent{
-    width: 50vh;
-    height: 50vh;
-    border: 1px solid black;
+    
+    border-bottom: 1px solid black;
+    padding: 1rem;
     position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(90, 89, 89);
 }
 
 
-.child{
+.left{
     border: 1px dotted black;
-    width: 25vh;
-    height: 25vh;
-    position: absolute;
-    bottom: 5px;
-    right: 5px;
-}
-
-.second{
-    border: 1px dotted black;
-    width: 25vh;
-    height: 25vh;
-    position: absolute;
+    width: 9vh;
+    height: 9vh;
+   
     top: 5px;
-    left: 5px;
+    right: 5px;
+    border-radius: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px;
 }
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    width: 10rem;
+}
+
 
 .tt{
     height: 200vh;
+}
+img{
+   
+    height: 9vh;
 }
